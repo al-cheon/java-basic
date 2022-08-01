@@ -1,6 +1,7 @@
 package basic.java.clasic.collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ListTest {
@@ -14,6 +15,7 @@ public class ListTest {
                 b.remove(i);
             }
         }
+
 
 
 
