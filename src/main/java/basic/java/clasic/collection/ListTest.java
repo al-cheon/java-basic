@@ -16,8 +16,8 @@ public class ListTest {
             }
         }
 
-
-
+        List<String> objects = Arrays.asList(new String[]{"A", "B", "C"});
+        objects.forEach(System.out::print);
 
     }
 }

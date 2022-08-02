@@ -1,18 +1,45 @@
 package basic.java.clasic.inherit;
 
-public class A {
+public class A implements I {
     String val = "A";
-    void print() {
+    public void print() {
         System.out.println(val);
     }
 }
 
 class B extends A {
-    String val = "B";   //todo 주의) 조상변수와 같은 이름의 변수를 만듬
-    String val2 = "B";
+    String val = "B";
+//    void print() {
+//        System.out.println(val);
+//    }
+}
 
-    void print() {
+class C extends B {
+    String val = "C";
+    public void print() {
+        super.print(); //todo 주의
         System.out.println(val);
     }
+}
 
+class Z implements I, II {
+    @Override
+    public void print() {
+        I.super.print();
+        II.super.print();
+        System.out.println("Z");
+    }
+}
+
+interface I {
+    String val = "I";
+    default void print() {
+        System.out.println("I");
+    }
+}
+
+interface II {
+    default void print() {
+        System.out.println("II");
+    }
 }
