@@ -51,13 +51,15 @@ public class Main {
 //        c4.print();
 //        System.out.println(":::::::::::::::::::::::");
 
-        I z1  = new Z();
-        z1.print();
-        System.out.println(":::::::::::::::::::::::");
+//        I z1  = new Z();
+//        z1.print();
+//        System.out.println(":::::::::::::::::::::::");
 
-        II z2  = new Z();
-        z2.print();
-        System.out.println(":::::::::::::::::::::::");
+//        II z2  = new Z();
+//        z2.print();
+//        System.out.println(":::::::::::::::::::::::");
+
+
 
 
 

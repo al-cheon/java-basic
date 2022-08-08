@@ -1,4 +1,4 @@
-package basic.java.clasic.ramda;
+package basic.java.clasic.lambda;
 
 import java.util.Arrays;
 import java.util.function.Consumer;
