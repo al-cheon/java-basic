@@ -1,4 +1,4 @@
-package basic.java.clasic.inherit;
+package basic.java.clasic.inherit1;
 
 /**
  * interface 의 추상메소드를 대신 구현해주는 조상클래스

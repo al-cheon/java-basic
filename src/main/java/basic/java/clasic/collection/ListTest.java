@@ -19,7 +19,19 @@ public class ListTest {
         List<String> objects = Arrays.asList(new String[]{"A", "B", "C"});
         objects.forEach(System.out::print);
 
+        //////////////////////////
+        System.out.println();
+        List<String> list1 = new ArrayList<>();
+        list1.add("a");
+        list1.add("b");
+        list1.add("c");
+        List<String> list2 = new ArrayList<>();
+        list2.add("a");
 
+        list1.retainAll(list2);
+        System.out.println(list1);
+        list1.clear();
+        System.out.println(list1);
 
     }
 }

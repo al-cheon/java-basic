@@ -1,4 +1,4 @@
-package basic.java.clasic.abstrcts;
+package basic.java.clasic.abstracts1;
 
 public class Fighter extends Unit implements Fightable {
     @Override

@@ -1,4 +1,4 @@
-package basic.java.clasic.inherit;
+package basic.java.clasic.inherit1;
 
 public class A implements I {
     String val = "A";

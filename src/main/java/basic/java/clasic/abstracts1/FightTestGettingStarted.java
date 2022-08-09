@@ -1,8 +1,8 @@
-package basic.java.clasic.abstrcts;
+package basic.java.clasic.abstracts1;
 
 public class FightTestGettingStarted {
     public static void main(String[] args) {
-        Fighter f = new Fighter();
+        Fightable f = new Fighter();
 
         if (f instanceof Unit) {
             System.out.println("Unit");

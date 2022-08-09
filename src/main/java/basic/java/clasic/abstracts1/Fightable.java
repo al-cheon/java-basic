@@ -1,4 +1,4 @@
-package basic.java.clasic.abstrcts;
+package basic.java.clasic.abstracts1;
 
 /**
  * [[ 인터페이스 특징 ]]

@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 public class MathTest {
     public static void main(String[] args) {
 
+        Math.random();
 
         try (Stream<String> lines = Files.lines(Paths.get("sample.txt"));) {
             lines.forEach(System.out::print);

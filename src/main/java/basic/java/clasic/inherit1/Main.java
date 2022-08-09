@@ -1,4 +1,4 @@
-package basic.java.clasic.inherit;
+package basic.java.clasic.inherit1;
 
 /**
  * 필드는 선언된 변수 타입을 따라가고, 메소드는 생성된 인스턴스의 최종오버라이딩을 따라간다
